@@ -12,7 +12,7 @@ Realiza lo que te indica tu examen, está en el archivo pdf del mismo repositori
 
 ```mermaid
 classDiagram
-    Caja o-- Dimension
+    Caja *-- Dimension
       class Dimension{
         - ancho : int
         - largo : int
